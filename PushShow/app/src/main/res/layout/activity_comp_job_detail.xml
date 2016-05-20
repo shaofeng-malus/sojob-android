@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:topBar="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.malus.pushshow.activity.Job.CompJobDetailActivity">
+    <com.malus.pushshow.widget.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/topic"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        topBar:leftButton_src="@mipmap/arrow_left_white"
+        topBar:leftButton_width="@dimen/topbar_button_width"
+        topBar:leftText_color="@color/white"
+        topBar:leftText_size="@dimen/topbar_button_text_size"
+        topBar:rightButton_width="@dimen/topbar_button_width"
+        topBar:rightText_color="@color/white"
+        topBar:rightText_size="@dimen/topbar_button_text_size"
+        topBar:text="职位详情"
+        topBar:text_color="@color/white"
+        topBar:text_size="@dimen/topbar_text_size" />
+    <FrameLayout
+        android:id="@+id/comp_job_detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</LinearLayout>

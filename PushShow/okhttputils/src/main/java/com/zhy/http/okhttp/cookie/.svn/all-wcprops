@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/cookie
+END
+SerializableHttpCookie.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/SerializableHttpCookie.java
+END
+PersistentCookieStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/PersistentCookieStore.java
+END
+SimpleCookieJar.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/cookie/SimpleCookieJar.java
+END

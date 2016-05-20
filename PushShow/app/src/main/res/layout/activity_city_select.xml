@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:topBar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <com.malus.pushshow.widget.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/topic"
+        android:gravity="center_vertical"
+        android:paddingRight="10dp"
+        topBar:leftButton_text="取消"
+        topBar:leftButton_width="@dimen/topbar_button_width"
+        topBar:leftText_color="@color/white"
+        topBar:leftText_size="@dimen/topbar_button_text_size"
+        topBar:rightButton_width="@dimen/topbar_button_width"
+        topBar:rightText_color="@color/white"
+        topBar:rightText_size="@dimen/topbar_button_text_size"
+        topBar:text="选择城市"
+        topBar:text_color="@color/white"
+        topBar:text_size="@dimen/topbar_text_size" />
+
+    <com.malus.pushshow.widget.ViewPagerWithScrollable
+        android:id="@+id/city_select_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topbar" />
+</RelativeLayout>

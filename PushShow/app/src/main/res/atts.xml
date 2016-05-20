@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 资源类 -->
+<resources>
+
+    <declare-styleable name="Topbar">
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="leftText_size" format="dimension" />
+        <attr name="rightText_size" format="dimension" />
+        <attr name="rightText_color" format="color" />
+        <attr name="leftText_color" format="color" />
+        <attr name="text_background" format="color" />
+        <attr name="leftButton_src" format="reference|color" />
+        <attr name="leftButton_width" format="dimension" />
+        <attr name="leftButton_text" format="string" />
+        <attr name="rightButton_src" format="reference|color" />
+        <attr name="rightButton_width" format="dimension" />
+        <attr name="rightButton_text" format="string" />
+        <attr name="searchButton_src" format="reference|color" />
+        <attr name="searchButton_width" format="dimension" />
+        <attr name="searchButton_marginRight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="topSelect">
+        <attr name="leftTitle" format="string" />
+        <attr name="rightTitle" format="string" />
+        <attr name="centerTitle" format="string" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="DisplayImageView">
+        <attr name="display_width" format="float" />
+        <attr name="display_height" format="float" />
+    </declare-styleable>
+    <declare-styleable name="NetWorkImageView">
+        <attr format="dimension" name="roundWidth" />
+        <attr format="dimension" name="roundHeight" />
+        <attr format="boolean" name="isShowRoundCorner" />
+    </declare-styleable>
+    
+</resources>

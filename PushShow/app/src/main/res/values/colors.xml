@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="topic">#536eff</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--背景-->
+    <color name="gray_bg_common">#eeeeee</color>
+    <color name="bg_0">#eeeeee</color>
+    <color name="bg_1">#ececec</color>
+    <color name="bg_2">#e0e0e0</color>
+    <color name="bg_3">#dddddd</color>
+    <color name="bg_4">#cccccc</color>
+
+    <!--字体颜色-->
+    <color name="text_color_micro">#cccccc</color>
+    <color name="text_color_small">#999999</color>
+    <color name="text_color_medium">#666666</color>
+    <color name="text_color_large">#333333</color>
+    <color name="text_color_black">#000000</color>
+
+    <!--线条-->
+    <color name="divider_bg_big">#cccccc</color>
+    <color name="divider_bg_medium">#dddddd</color>
+    <color name="divider_bg_small">#e6e6e6</color>
+
+    <drawable name="white">@color/white</drawable>
+    <color name="text_selected">#009ce5</color>
+    <color name="vod_top_tab_color_1">#333333</color>
+</resources>

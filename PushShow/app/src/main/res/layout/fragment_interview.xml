@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray_bg_common"
+    android:layout_height="match_parent"
+    tools:context="com.malus.pushshow.fragment.job.interview.InterviewFragment">
+
+                <TextView
+                    android:id="@+id/job_detail_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/text_size_medium"
+                    android:gravity="center"
+                    android:textColor="@color/text_color_large"
+                    android:text="尚未完善，敬请期待。" />
+
+
+
+</FrameLayout>

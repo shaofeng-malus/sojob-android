@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:topBar="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.malus.pushshow.widget.ViewPagerWithScrollable
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <RadioGroup
+            android:id="@+id/main_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:background="@color/bg_0"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/main_radio_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableTop="@drawable/xjs_xdh_zw"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="求职"
+                android:textColor="@color/main_radio_text_style" />
+
+            <RadioButton
+                android:id="@+id/main_radio_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableTop="@drawable/xjs_xdh_ms"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="面试"
+                android:textColor="@color/main_radio_text_style" />
+
+            <RadioButton
+                android:id="@+id/main_radio_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableTop="@drawable/xjs_xdh_jl"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="简历"
+                android:textColor="@color/main_radio_text_style" />
+
+            <RadioButton
+                android:id="@+id/main_radio_btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:drawableTop="@drawable/xjs_xdh_wode"
+                android:gravity="center"
+                android:padding="0dp"
+                android:text="我的"
+                android:textColor="@color/main_radio_text_style" />
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

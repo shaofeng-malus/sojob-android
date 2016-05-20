@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.malus.pushshow">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Application.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity
+            android:name=".activity.JobDetailActivity"
+            android:label="@string/title_activity_job_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Job.CitySelectActivity"
+            android:label="@string/title_activity_city_select"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Job.CompJobsActivity"
+            android:label="@string/title_activity_comp_jobs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Job.CompJobDetailActivity"
+            android:label="@string/title_activity_comp_job_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.KeyGetActivity"
+            android:label="@string/title_activity_key_get"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GrauidActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

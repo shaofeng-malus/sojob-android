@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request
+END
+PostStringRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/PostStringRequest.java
+END
+CountingRequestBody.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/CountingRequestBody.java
+END
+RequestCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/RequestCall.java
+END
+OkHttpRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/OkHttpRequest.java
+END
+PostFormRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/PostFormRequest.java
+END
+GetRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/GetRequest.java
+END
+PostFileRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/repos/dev8/!svn/ver/31831/cbox/%E6%8A%80%E6%9C%AF/code/cbox_android_code/CBoxV6.0.0/okhttputils/src/main/java/com/zhy/http/okhttp/request/PostFileRequest.java
+END
